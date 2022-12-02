@@ -1,0 +1,50 @@
+body {
+  background-color: rgba(193, 122, 244, 0.571);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1 {
+  color: rgb(22, 3, 42);
+  font-size: 20px;
+}
+
+.item:first-child {
+  color: rgb(121, 33, 215);
+  font-weight: bold;
+}
+
+#content {
+  display: flex;
+  flex-direction: column;
+}
+
+.item {
+  font-size: 25px;
+}
+
+.title {
+  font-weight: bold;
+}
+
+.flag {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding-bottom: 3rem;
+}
+
+.error {
+  font-size: 25px;
+  font-weight: bold;
+  margin-top: 25px;
+}
+
+input {
+  border-radius: 20px;
+}
+
+button {
+  border-radius: 20px;
+}
